@@ -1,0 +1,9 @@
+<div id="powerd"><a href="https://vrt.transfermate.com/" target="_blank" id="tm_add146" class="tm_add146">Powered by TransferMate</a></div>
+<div id="demo-rate-convert"></div>
+<script>
+    var apiTargetHtmlObj = document.getElementById("demo-rate-convert");
+    var tmScript = document.createElement("script");
+    tmScript.src = "https://vrt.transfermate.com/en/exchange_rates_api.asp?csel=AUD,IDR&cshort=AED";
+    document.getElementsByTagName("head")[0].appendChild(tmScript);
+</script>
+<noscript><br/><span style="color: red;">Please enable your JavaScript.</span></noscript>
